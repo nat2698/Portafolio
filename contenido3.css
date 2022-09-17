@@ -1,0 +1,171 @@
+.contenido3 {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 130vh;
+    background: #222;
+  }
+  
+  .container-habilidades h4 {
+    color: rgb(255, 249, 249);
+    font-size: 34px;
+    letter-spacing: 2px;
+    width: 500px;
+    height: 30px;
+    display: flex;
+    /* background: #999; */
+    margin-top: 0px;
+    margin-left: 5px;
+    margin-bottom: 40px;
+    font-weight: bold;
+  }
+  
+  .container-habilidades {
+    margin: 50px;
+    position: sticky;
+    width: 50%;
+    height: 600px;
+    position: absolute;
+  
+    padding: 50px;
+    background: #333;
+    border-radius: 10px;
+    z-index: 0;
+    /* box-shadow: 0 20px 30px rgba(0, 0, 0, .2);
+      backdrop-filter: blur(10px); */
+  }
+  
+  .container-habilidades * {
+    color: white;
+    font-weight: 500;
+  }
+  
+  .skills:not(:last-child) {
+    margin-bottom: 8px;
+  }
+  
+  .detalles {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .main {
+    position: relative;
+    border: 1px solid rgb(121, 40, 168);
+    border-radius: 20px;
+  }
+  
+  .main div {
+    position: relative;
+    width: 0;
+    height: 8px;
+    border-radius: 10px;
+    background: linear-gradient(450deg, rgb(121, 40, 168), rgb(214, 186, 241));
+  }
+  
+  /* animacion */
+  
+  #html-main {
+    animation: html-barra 2s forwards;
+  }
+  
+  @keyframes html-barra {
+    100% {
+      width: 90%;
+    }
+  }
+  
+  #css-main {
+    animation: css-barra 2s forwards;
+  }
+  
+  @keyframes css-barra {
+    100% {
+      width: 80%;
+    }
+  }
+  
+  #js-main {
+    animation: js-barra 2s forwards;
+  }
+  
+  @keyframes js-barra {
+    100% {
+      width: 70%;
+    }
+  }
+  
+  #java-main {
+    animation: java-barra 2s forwards;
+  }
+  
+  @keyframes java-barra {
+    100% {
+      width: 70%;
+    }
+  }
+  
+  #C-main {
+    animation: C-barra 2s forwards;
+  }
+  
+  @keyframes C-barra {
+    100% {
+      width: 70%;
+    }
+  }
+  
+  #react-main {
+    animation: react-barra 2s forwards;
+  }
+  
+  @keyframes react-barra {
+    100% {
+      width: 70%;
+    }
+  }
+  
+  #python-main {
+    animation: python-barra 2s forwards;
+  }
+  
+  @keyframes python-barra {
+    100% {
+      width: 30%;
+    }
+  }
+  
+  #angular-main {
+    animation: angular-barra 2s forwards;
+  }
+  
+  @keyframes angular-barra {
+    100% {
+      width: 30%;
+    }
+  }
+  
+  #mysql-main {
+    animation: mysql-barra 2s forwards;
+  }
+  
+  @keyframes mysql-barra {
+    100% {
+      width: 80%;
+    }
+  }
+
+  @media (max-width: 597px) {
+    
+  
+    .container-habilidades{
+      width: 70%;
+    }
+    
+    
+    
+  }

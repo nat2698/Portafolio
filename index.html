@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="icon" href="icono.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contenido1.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="contenido2.css">
+    <link rel="stylesheet" href="contenido3.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="titulo">
+            <img src="icon.png" alt="" />
+            <a href="#home">Mi Portafolio</a>
+        </div>
+        <nav class="navbar">
+            <ul class="enlaces-menu">
+                <li class="item ">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="item">
+                    <a href="#about" value="Recargar" onclick="location.reload()">About</a>
+                </li>
+                <li class="item">
+                    <a href="#habilidades" value="Recargar" onclick="location.reload()">Habilidades</a>
+                </li>
+                <li class="item">
+                    <a>Portafolio</a>
+                </li>
+                <li class="item ">
+                    <a href="#contacto">Contacto</a>
+                </li>
+                <li class="slide"></li>
+            </ul>
+
+            <!-- <button className="ham" type="button">
+                <span className="br-1"></span>
+                <span className="br-2>"></span>
+                <span className="br-3>"></span>
+            </button> -->
+
+            <script src="main.js"></script>
+            <script src="https://code.jquery.com/jquery-3.6.1.js">
+            </script>
+
+            <script type="text/javascript">
+                $(document).ready(function () {
+                    $('li').on('click', function () {
+                        $(this).siblings().removeClass('active')
+                        $(this).addClass('active');
+                    })
+                })
+            </script>
+        </nav>
+
+
+    </header>
+    <div class="letra" id="home">
+        <div class="letra-2">
+            <img src="letra.png"></img>
+        </div>
+
+        <div class="contenido">
+            <div class="welcome">
+                <h1>WELCOME..<span>&#160;</span></h1>
+            </div>
+
+            <h2>
+                I AM DEVELOPER FRONT-END
+            </h2>
+        </div>
+    </div>
+    <!-- contenido 2  -->
+    <div class="contenido2" id="about">
+        <div class="contenido-21">
+            <div class="imagen">
+                <img src="foto.jpeg"></img>
+            </div>
+            <div class="container-text">
+                <div class="titulo-text">
+                    <h3>
+                        Hola, mi nombre es Natalia!
+                    </h3>
+                </div>
+                <div class="texto">
+                    <p>
+                        Soy Natalia Salazar, estudiante de Tecnologia en Sitemas de Información,
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet quidem accusantium
+                        reprehenderit recusandae quam sunt illo quo nisi quibusdam aliquam!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contenido3" id="habilidades">
+        <div class="container-habilidades">
+            <h4>Habilidades</h4>
+
+            <div class="skills">
+                <div class="detalles">
+                    <span>HTML</span>
+                    <span>90%</span>
+                </div>
+
+                <div class="main">
+                    <div id="html-main"></div>
+                </div>
+            </div>
+
+            <div class="skills">
+                <div class="detalles">
+                    <span>CSS</span>
+                    <span>80%</span>
+                </div>
+
+                <div class="main">
+                    <div id="css-main"></div>
+                </div>
+            </div>
+
+            <div class="skills">
+                <div class="detalles">
+                    <span>JAVASCRIPT</span>
+                    <span>70%</span>
+                </div>
+
+                <div class="main">
+                    <div id="js-main"></div>
+                </div>
+            </div>
+
+            <div class="skills">
+                <div class="detalles">
+                    <span>REACT</span>
+                    <span>60%</span>
+                </div>
+
+                <div class="main">
+                    <div id="react-main"></div>
+                </div>
+            </div>
+
+            <div class="skills">
+                <div class="detalles">
+                    <span>ANGULAR</span>
+                    <span>30%</span>
+                </div>
+
+                <div class="main">
+                    <div id="angular-main"></div>
+                </div>
+            </div>
+
+            <div class="skills">
+                <div class="detalles">
+                    <span>JAVA</span>
+                    <span>70%</span>
+                </div>
+
+                <div class="main">
+                    <div id="java-main"></div>
+                </div>
+            </div>
+
+            <div class="skills">
+                <div class="detalles">
+                    <span>C++</span>
+                    <span>75%</span>
+                </div>
+
+                <div class="main">
+                    <div id="C-main"></div>
+                </div>
+            </div>
+
+
+            <div class="skills">
+                <div class="detalles">
+                    <span>MYSQL</span>
+                    <span>80%</span>
+                </div>
+
+                <div class="main">
+                    <div id="mysql-main"></div>
+                </div>
+            </div>
+
+            <div class="skills">
+                <div class="detalles">
+                    <span>PYTHON</span>
+                    <span>40%</span>
+                </div>
+
+                <div class="main">
+                    <div id="python-main"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    <!-- CONTENIDO 4 -->
+    <div class="contenido4" id="contacto">
+
+
+        <div class="icon">
+            <h5>Contacto</h5>
+
+
+            <i class="fa-solid fa-mobile"></i>
+
+            <p>(+57) 311 310 2770</p>
+            <i class="fa-solid fa-envelope"></i>
+            <p>nata.salazar2698@gmail.com</p>
+        </div>
+
+        <!-- <div class="icon2"> 
+            <i className="fa-brands fa-facebook"></i>           
+            <p>nata.salazar2698@gmail.com</p>
+        </div> -->
+
+    </div>
+
+
+</body>
+
+</html>
