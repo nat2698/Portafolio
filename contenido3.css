@@ -25,11 +25,11 @@
   .container-habilidades {
     margin: 50px;
     position: sticky;
-    width: 50%;
+    width: 40%;
     height: 600px;
     position: absolute;
   
-    padding: 50px;
+    padding: 30px;
     background: #333;
     border-radius: 10px;
     z-index: 0;
@@ -159,11 +159,24 @@
     }
   }
 
-  @media (max-width: 597px) {
+  @media (max-width: 768px) {
     
   
     .container-habilidades{
       width: 70%;
+    }
+    .container-habilidades h4 {
+      color: rgb(255, 249, 249);
+      font-size: 34px;
+      letter-spacing: 2px;
+      width: 100%;
+      height: 30px;
+      display: flex;
+      /* background: #999; */
+      margin-top: 0px;
+      margin-left: 5px;
+      margin-bottom: 40px;
+      font-weight: bold;
     }
     
     

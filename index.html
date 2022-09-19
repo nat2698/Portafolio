@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="contenido2.css">
     <link rel="stylesheet" href="contenido3.css">
+    <link rel="stylesheet" href="contenido5.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
@@ -27,16 +28,16 @@
         <nav class="navbar">
             <ul class="enlaces-menu">
                 <li class="item ">
-                    <a href="#home">Home</a>
+                    <a href="#home">Inicio</a>
                 </li>
                 <li class="item">
-                    <a href="#about" value="Recargar" onclick="location.reload()">About</a>
+                    <a href="#about" value="Recargar" onclick="location.reload()">Acerca de Mi</a>
                 </li>
                 <li class="item">
                     <a href="#habilidades" value="Recargar" onclick="location.reload()">Habilidades</a>
                 </li>
                 <li class="item">
-                    <a>Portafolio</a>
+                    <a href="#portafolio">Portafolio</a>
                 </li>
                 <li class="item ">
                     <a href="#contacto">Contacto</a>
@@ -44,31 +45,26 @@
                 <li class="slide"></li>
             </ul>
 
+
             <!-- <button className="ham" type="button">
                 <span className="br-1"></span>
                 <span className="br-2>"></span>
                 <span className="br-3>"></span>
             </button> -->
 
-            <script src="main.js"></script>
-            <script src="https://code.jquery.com/jquery-3.6.1.js">
-            </script>
 
-            <script type="text/javascript">
-                $(document).ready(function () {
-                    $('li').on('click', function () {
-                        $(this).siblings().removeClass('active')
-                        $(this).addClass('active');
-                    })
-                })
-            </script>
         </nav>
 
+        <button class="btn"><i class="fa-solid fa-bars"></i></button>
 
     </header>
+
+
+
+
     <div class="letra" id="home">
         <div class="letra-2">
-            <img src="letra.png"></img>
+            <img class="img-letra" src="letra.png"></img>
         </div>
 
         <div class="contenido">
@@ -95,9 +91,12 @@
                 </div>
                 <div class="texto">
                     <p>
-                        Soy Natalia Salazar, estudiante de Tecnologia en Sitemas de Información,
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet quidem accusantium
-                        reprehenderit recusandae quam sunt illo quo nisi quibusdam aliquam!
+                        Estudiante de Tecnologia en Sistemas de información de la universidad del Valle con conocimientos en HTML, CSS, lenguaje JavaScript y
+                        React. Interesada en adquirir experiencia en desarrollo de proyectos webs.
+                        Atraída por un enfoque de desarrollo web Front-end. Así mismo, por mantener soluciones Web con
+                        la mejor experiencia de usuario para cada una de las plataformas operadas.
+                        Orientada al resultado, gestión de la productividad, trabajo en equipo, aprendizaje rápido,
+                        continuo y autónomo, actitud positiva, resolución de problemas.
                     </p>
                 </div>
             </div>
@@ -212,29 +211,70 @@
 
     </div>
 
+    <!-- CONTENIDO 5 -->
+    <div class="contenido5" id="portafolio">
+        <div>
+            <div class="titulo-porta">
+                <h6>Portafolio</h6>
+            </div>
+            <div container-grid5>
+                <div class="card">
+                    <img class="img-porta" src="imagenstore.png" alt="">
+                    <div class="descripcion">
+                        <p class="h8">ImagenStore</p>
+                        <p class="des">Proyecto Front-End realizado con la Api de Unsplash como practica autonoma para 
+                            mejoramiento de mis habilidades como desarrolladora y manejo de Api's.
+                        </p>
+                    </div>
+                    <div>
+                        <div class="herramientas">
+                            <p>React</p>
+                        </div>
+                        
+                    </div>
+                    <div class="container-btns">
+                        <button class="btn-link">
+                            <a href="https://imagenstore.netlify.app"><i  class="fa-solid fa-link"></i></a>
+                            
+                        </button>
+
+                        <button class="btn-link">
+                            <a href="https://github.com/nat2698/Portafolio"><i class="fa-brands fa-github"></i></a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
     <!-- CONTENIDO 4 -->
     <div class="contenido4" id="contacto">
-
-
         <div class="icon">
             <h5>Contacto</h5>
-
-
             <i class="fa-solid fa-mobile"></i>
-
             <p>(+57) 311 310 2770</p>
             <i class="fa-solid fa-envelope"></i>
-            <p>nata.salazar2698@gmail.com</p>
+            <p >nata.salazar2698@gmail.com</p>
         </div>
-
         <!-- <div class="icon2"> 
             <i className="fa-brands fa-facebook"></i>           
             <p>nata.salazar2698@gmail.com</p>
         </div> -->
-
     </div>
 
-
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('li').on('click', function () {
+                $(this).siblings().removeClass('active')
+                $(this).addClass('active');
+            })
+        })
+    </script>
+    <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.js">
+    </script>
+    <!-- <script src="main.js"></script> -->
 </body>
 
 </html>

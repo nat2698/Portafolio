@@ -27,19 +27,6 @@
 
 
 
-/* CONTENIDO-3
- */
-/* 
-.contenido3{
-    
-    width: 40%;
-    min-width: 590px;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    left: 50%;
-    top: 50%;
-} */
-
 
 
 /* contenido-4 */
@@ -50,7 +37,7 @@
   width: 100%;
   height: 100vh;
   display: flex;
-  background: #333;
+  background: #222;
   color: #fff;
 
   align-items: center;
@@ -68,12 +55,6 @@
     align-items: center; */
 }
 
-/* .icon2{
-    width: 100%;
-    height: 20px;
-    display: flex;
-    /* justify-content: center;
-    align-items: center; */
 
 .icon h5 {
   margin: auto;
@@ -108,31 +89,36 @@ i {
   /* margin-left: 215px */
 }
 
-/* navbar resposive */
-/* 
 
-   
-} */
-
-@media (max-width: 1300px) {
- 
-
-  .letra {
-    min-width: 752px;
+@media (max-width: 768px) {
+    
+  
+  .contenido4 {
+    padding: 50px;
+    text-align: center;
+    
+    width: 100%;
+    height: 100vh;
     display: flex;
+    background: #222;
+    color: #fff;
+  
+    align-items: center;
   }
+  
+
+  .icon p {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+   
+  }
+
+  
   
   
   
 }
 
-
-@media (max-width: 597px) {
- 
-  .container-habilidades{
-    width: 70%;
-  }
   
   
-  
-}
